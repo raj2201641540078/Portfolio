@@ -12,6 +12,7 @@ import {
   FaTrophy,
   FaMedal,
   FaFileAlt,
+  FaProjectDiagram,
 } from "react-icons/fa";
 
 export default function Header() {
@@ -62,6 +63,12 @@ export default function Header() {
       icon: FaLaptopCode,
       text: "Projects",
       path: "/projects",
+    },
+    {
+      id: "architecture",
+      icon: FaProjectDiagram,
+      text: "Tech Progress",
+      path: "/architecture",
     },
     { id: "contact", icon: FaEnvelope, text: "Contact", path: "/contact" },
   ];

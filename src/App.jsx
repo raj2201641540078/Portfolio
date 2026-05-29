@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Achievements from "./components/Achievements";
 import Certifications from "./components/Certifications";
+import Architecture from "./components/Architecture";
 
 import "./assets/css/index.css";
 
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/architecture" element={<Architecture />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/achievements" element={<Achievements />} />

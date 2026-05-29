@@ -37,6 +37,7 @@ import {
   SiSqlalchemy,
   SiMysql,
   SiThemoviedatabase,
+  SiKubernetes,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsDatabase, BsFileEarmarkCode, BsGithub, BsGrid1X2 } from "react-icons/bs";
@@ -198,45 +199,33 @@ const SkillsSection = () => {
     // },
     {
       icon: Cloud,
-      title: "Version Control",
-      color: "text-orange-400",
+      title: "Cloud & DevOps",
+      color: "text-cyan-400",
       skills: [
-        // { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        // {
-        //   name: "Docker",
-        //   icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        // },
-        // { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        // {
-        //   name: "Kubernetes",
-        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        // },
-        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Github", icon: <BsGithub className="w-4 h-4 text-[#336791]" /> },
+        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
+        {
+          name: "Docker",
+          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
+        },
+        { name: "Kubernetes", icon: <SiKubernetes className="w-4 h-4 text-[#326CE5]" /> },
+        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
         { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
+        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
       ],
     },
     {
       icon: Cpu,
-      title: "Tools & Technologies",
-      color: "text-pink-400",
+      title: "System Design & Architecture",
+      color: "text-fuchsia-400",
       skills: [
-        {
-          name: "VS Code",
-          icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
-        },
-        // { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
-        {
-          name: "Webpack",
-          icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
-        },
-        { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
-        {
-          name: "Firebase",
-          icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
-        },
-        { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
-        { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
+        { name: "System Design", icon: <BsGrid1X2 className="w-4 h-4 text-[#F59E0B]" /> },
+        { name: "Microservices", icon: <Cloud className="w-4 h-4 text-[#22C55E]" /> },
+        { name: "Concurrency", icon: <Cpu className="w-4 h-4 text-[#6366F1]" /> },
+        { name: "Distributed Systems", icon: <Layout className="w-4 h-4 text-[#38BDF8]" /> },
+        { name: "Design Patterns", icon: <FcWorkflow className="w-4 h-4" /> },
+        { name: "Performance Tuning", icon: <FaDatabase className="w-4 h-4 text-[#0EA5E9]" /> },
+        { name: "Caching", icon: <Database className="w-4 h-4 text-[#22D3EE]" /> },
+        { name: "Observability", icon: <Cloud className="w-4 h-4 text-[#A78BFA]" /> },
       ],
     },
     // {
